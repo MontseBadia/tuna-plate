@@ -4,21 +4,20 @@
     <title>Tunathon Barcelona 2018</title>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-    <link href="https://fonts.googleapis.com/css?family=Lora:700|Open+Sans:300,400" rel="stylesheet">    <link rel='stylesheet' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:300,400" rel="stylesheet">    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   </head>
   <body>
 
     <nav class="top-nav">
-      <img class="logo" src="http://via.placeholder.com/100x30" alt="">
+      <span>SuperFood</span>
       <ul>
         <li class="scroll-item"><a href="#">Boost your memory</a></li>
         <li class="scroll-item" ><a href="#">Benefits</a></li>
-        <li><a href="#" class="btn">Try now!</a>
-        </li>
       </ul>
     </nav>
 
-    <section class="top-banner">
+    <section class="top-banner" id="top-banner">
       <div class="container">
         <div class="claim-slider">
           <div class="claim-inner">
@@ -32,25 +31,26 @@
           <img src="assets/images/main-image.png" alt="Pomegranate">
         </figure>
         <div class="arrow-down">
-          <img src="http://via.placeholder.com/100x30" alt="Click to next section">
+          <a href="#" class="btn">Boost your memory</a>
         </div>
       </div>
     </section>
 
     <section class="main">
       <div class="container">
-        <h2>LOREM IPSUM DOLRO SIT AMET</h2>
+        <h2>Boost your memory</h2>
         <div class="product-wrapper">
           <div class="product-image">
             <figure>
-              <img src="http://via.placeholder.com/300x450" alt="Pomegranate Powder">
+              <img src="assets/images/pome-granate-powder.png" alt="Pomegranate Powder">
             </figure>
           </div>
-
+  
           <div class="product-info">
             <div class="main-text">
               <h3>Pomegranate powder</h3>
-              <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit. Lorem ipsum dolor sit.</p>
+              <p>Contains all nutrients from the extract's fruit</p>
+              <p>Certified by the Center of Nutrition, CA, USA</p>
             </div>
             <div class="cta">
               <a href="#" class="btn">Try now</a>
@@ -60,31 +60,61 @@
       </div>
     </section>
 
-    <section class="benefits">
-      <div class="container">
-        <h2>Reap the benefit of this super fruit</h2>
-        <article class="b-box">Benefit</article>
-        <article class="b-box">Benefit</article>
-        <article class="b-box">Benefit</article>
+    <section class="benefits" id="benefits">
+      <div id="benefits-list">
+        <div class="container">
+          <div class="benefits">
+            <h2>Pomegranate's Benefits</h2>
+            <article class="b-box">
+              <h3>Boosts Memory</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            <article class="b-box">
+              <h3>Relieves Stress</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            </article>
+            <article class="b-box">
+              <h3>Gives Enery</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            <article class="b-box">
+              <h3>Improves Mental Clarity</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            <article class="b-box">
+              <h3>Facilitates Social Interaction</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer>
+    <footer class="main-footer">
       <div class="container">
-        <img class="logo" src="http://via.placeholder.com/100x30" alt="">
-        <ul class="info">
+        <div class="logo">
+          <span>SuperFood</span>
+        </div>
+        <ul class="company-info">
           <li><a href="#">About us</a></li>
           <li><a href="#">Terms & conditions</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <ul class="social">
-          <li><a href="facebook">f</a></li>
-          <li><a href="instagram">i</a></li>
-          <li><a href="twitter">t</a></li>
+          <li>
+            <a href="facebook"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="instagram"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="twitter"><i class="fab fa-twitter"></i></a>
+          </li>
         </ul>
       </div>
     </footer>
 
-    <script src='main.js'></script>
+    <script src="main.js"></script>
   </body>
 </html>
