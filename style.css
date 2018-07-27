@@ -6,12 +6,19 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+*{
+  margin: 0;
+}
 body {
   margin: 0;
   padding: 0;
 }
-
+img{
+  max-width: 100%;
+}
+section{
+  border-bottom: 1px solid black;
+}
 
 /* ---- typography ---- */
 
