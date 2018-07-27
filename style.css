@@ -12,6 +12,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 img{
   max-width: 100%;
@@ -24,21 +25,27 @@ section{
 
 
 /* ---- layout ---- */
-
-
+.h1,h2,h3,h4{
+  font-family: 'Lora', serif;
+}
 .container {
   margin: 0 20px;
+  padding: 30px 0;
 }
-
 .section {
   margin-bottom: 20px;
   padding-top: 20px;
 }
-
+.top-nav .scroll-item{
+  display: none;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 728px;
     margin: 0 auto;
+  }
+  .top-nav .scroll-item{
+    display: block;
   }
 }
 
