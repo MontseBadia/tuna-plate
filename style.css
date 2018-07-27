@@ -124,7 +124,7 @@ section {
   background: url(assets/images/main-image.png) no-repeat;
   background-size: 100%;
   background-position-x: 159px;
-  background-position-y: 100%;
+  background-position-y: 128%;
 }
 #benefits-list{
   background: url(assets/images/main-image.png) no-repeat;
@@ -135,9 +135,12 @@ section {
 .benefits h2, .benefits{
   margin-bottom: 30px;
 }
-.secondary-benefits h3{
-  margin-bottom: 15px;
-  font-size: 1.5em;
+.benefits h2, .benefits h3{
+  color: #AD121D;
+}
+.benefits h3{
+  margin: 10px 0 15px;
+  font-size: 1.2em;
 }
 .main-footer{
   text-align: center;

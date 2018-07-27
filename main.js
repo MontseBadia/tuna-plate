@@ -18,6 +18,9 @@ function main() {
   }, 6000);
 
 
+  const button = document.getElementById('button');
+  button.addEventListener('click', () => { scroll(0, 1000) });
+
 }
 
 window.addEventListener('load', main);
