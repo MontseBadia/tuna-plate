@@ -21,7 +21,13 @@ img{
 section{
   border-bottom: 1px solid black;
 }
-
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+ul li{
+  display: inline-block;
+}
 /* ---- typography ---- */
 
 
@@ -37,7 +43,10 @@ section{
   margin-bottom: 20px;
   padding-top: 20px;
 }
-.top-nav
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+}
 .top-nav .scroll-item{
   display: none;
 }
@@ -50,19 +59,35 @@ section{
   display: flex;
   flex-wrap: wrap;
   height: 200px;
+  transition: margin-left .5s; 
+}
+.claim-inner.slide-in-first{
+  margin-left: -100%;
+}
+.claim-inner.slide-in-second{
+  margin-left: -200%;
 }
 .claim-slider h2{
   width: 33.3333%;
   text-align: center;
 }
-
+footer{
+  text-align: center;
+}
 @media (min-width: 768px) {
   .container {
     max-width: 728px;
     margin: 0 auto;
   }
+  .product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .top-nav .scroll-item{
     display: block;
+  }
+  .product-info, .product-image{
+    width: 50%;
   }
 }
 
@@ -75,3 +100,4 @@ section{
 /* ---- css shame ---- */
 
 /*Animaitions*/
+ 
