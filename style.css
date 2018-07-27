@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 img{
   max-width: 100%;
@@ -36,9 +37,25 @@ section{
   margin-bottom: 20px;
   padding-top: 20px;
 }
+.top-nav
 .top-nav .scroll-item{
   display: none;
 }
+.claim-slider{
+  width: 100%;
+  overflow:hidden;
+}
+.claim-inner{
+  width: 300%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.claim-slider h2{
+  width: 33.3333%;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 728px;
@@ -57,3 +74,4 @@ section{
 
 /* ---- css shame ---- */
 
+/*Animaitions*/
